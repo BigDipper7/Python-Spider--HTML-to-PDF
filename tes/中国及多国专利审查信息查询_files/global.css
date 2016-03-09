@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+.en .hr .longname{max-width:264px;}
+.de .hr .longname{max-width:220px;}
+.es .hr .longname{max-width:75px;}
+.fr .hr .longname{max-width:90px;}
+.ja .hr .longname{max-width:338px;}
+.ko .hr .longname{max-width:362px;}
+.ru .hr .longname{max-width:181px;}
+
+.ru .hd .head {min-width: 1480px;}
+.ru .hd .header1 {min-width: 1280px;}
+.en .hd .head .nav_box ul li {line-height:28px; width:210px;}
+.fr .hd .head .nav_box ul li {line-height:18px; width:210px;}
+.es .hd .head .nav_box ul li {line-height:28px; width:210px;}
+.ru .hd .head .nav_box ul li {line-height:18px; width:300px;}
+.de .hd .head .nav_box ul li {line-height:18px; width:210px;}
+	
+.en .hd .head .logo_box { background: url(../images/logo_en.png) center no-repeat;width:400px;}
+.de .hd .head .logo_box { background: url(../images/logo_de.png) center no-repeat;width:410px;}
+.fr .hd .head .logo_box { background: url(../images/logo_fr.png) center no-repeat;width:410px;}
+.ru .hd .head .logo_box { background: url(../images/logo_ru.png) center no-repeat;width:490px;}
+.es .hd .head .logo_box { background: url(../images/logo_es.png) center no-repeat;width:410px;}
+.ja .hd .head .logo_box { background: url(../images/logo_ja.png) center no-repeat;width:410px;}
+.ko .hd .head .logo_box { background: url(../images/logo_kr.png) center no-repeat;width:410px;}
+
+.en .wjfm .browsebox_container.wopd_querytype{width: 120px;}
+.en .wjfm .browsebox_container.wopd_querytype .browsebox_input {width: 117px;*width: 119px;}
+.en .wjfm .browsebox_container.wopd_country{width: 103px;}
+.en .wjfm .browsebox_container.wopd_country .browsebox_input {width: 100px;*width: 102px;}
+.en .wjfm .browsebox_container.wopd_kindcode{width: 103px;}
+.en .wjfm .browsebox_container.wopd_kindcode .browsebox_input {width: 100px;*width: 102px;}
+
+.en .tab_list ul li{ min-height:60px;}
+.en .tab_list ul li p { line-height:normal;word-wrap: break-word;margin: 10px 0px 0px 0px;padding:0px 1px;}
+.en .tab_list ul { height:56px; padding-bottom: 5px;}
+.en .tab_list ul li.on {height:62px;}
+.en .welcome  { background: url(../images/wel_en.png) center no-repeat;}
+.en .empty_date { background: url(../images/empty_en.png) center no-repeat}
+.en .welcome_opd  { background: url(../images/wel_en.png) center no-repeat;}
+.en .empty_date_opd { background: url(../images/empty_en.png) center no-repeat}
+.en .en_filter_div{width:211px;}
+.en .en_sort_header li{width:auto!important; width:160px; min-width:160px; border:1px #e5e5e5 solid; border-top:0px; border-bottom:0px; border-right:0px; float:left;height:41px;}
+.en .en_sort_header li:hover{background:#fff; color:red;}
+.en .en_sort_header li.sortDown{background:#fff;color:red;}
+.en .en_muticheck_div{width:212px;}
+.en .css_button_confirm{width:70px;}
+.en .css_button_concel{width:70px;}
+.en .css_button_cc{width:65px;}
+
+.en .imfor_tablextro{ width:100%;}
+.en .imfor_tablextro tr:hover {background:#d9ecf3;}
+.en .imfor_tablextro td{ font-size:12px; height:38px; line-height:38px;  text-align:center; border-bottom:1px solid #e2eaee; color:#333333;}
+.en .imfor_tablextro .tad1{ width:22%; height:38px; line-height:38px; padding:0 6px; text-align:right; white-space:nowrap;}
+.en .imfor_tablextro .tad2{ width:10px;}
+.table_box .fontd{ white-space:nowrap;}
+.table_box .kindcode{ white-space:nowrap;}
+.en .table_box .table_boexotd{ width:13%; height:50px; line-height:50px; white-space:nowrap;}
+.en .tipstable th{ text-align:center; padding-left:3px;}
+.en .appNumber{width:13%;}
+.en .gzys_word {line-height:30px; font-size:14px; width:123px; text-align:right;}
+.en .gzys_botton_two { width:267px; height:30px; margin:auto;}
+
+
+.es .tab_list ul li{ min-height:63px; }
+.es .tab_list ul li p { line-height:normal;word-wrap: break-word;margin: 10px 0px 0px 0px; padding:0px 5px 0px 5px;}
+.es .tab_list ul { height:59px; padding-bottom: 5px;}
+.es .tab_list ul li.on {height:65px;}
+.es .welcome  { background: url(../images/wel_es.png) center no-repeat;}
+.es .empty_date { background: url(../images/empty_es.png) center no-repeat}
+.es .welcome_opd  { background: url(../images/wel_en.png) center no-repeat;}
+.es .empty_date_opd { background: url(../images/empty_en.png) center no-repeat}
+.es .es_box {line-height:20px;}
+.es .es_box2 {line-height:20px; height:60px;}
+
+
+.es .imfor_tablextro{ width:100%;}
+.es .imfor_tablextro tr:hover {background:#d9ecf3;}
+.es .imfor_tablextro td{ font-size:12px; height:38px; line-height:38px;  text-align:center; border-bottom:1px solid #e2eaee; color:#333333;}
+.es .imfor_tablextro .tad1{ width:22%; height:38px; line-height:38px; padding:0 6px; text-align:right; white-space:nowrap;}
+.es .imfor_tablextro .tad2{ width:10px;}
+.es .table_box > tbody > td, .es .table_box  > td{ white-space:nowrap;}
+
+.es .tipstable th{ text-align:center; padding-left:3px;}
+.es .en_filter_div{width:211px;}
+.es .en_muticheck_div{width:212px;}
+.es .css_button_confirm{width:70px;}
+.es .css_button_concel{width:70px;}
+.es .css_button_cc{width:65px;}
+.es .gzys_word {line-height:30px; font-size:14px; width:154px; text-align:right;}
+.es .gzys_botton_two { width:300px; height:30px; margin:auto;}
+
+
+.fr .tab_list ul li{ min-height:60px;}
+.fr .tab_list ul li p { line-height:normal;word-wrap: break-word;margin: 10px 0px 0px 0px; padding:0px 1px;}
+.fr .tab_list ul { height:56px; padding-bottom: 5px;}
+.fr .tab_list ul li.on {height:62px;}
+.fr .welcome  { background: url(../images/wel_fr.png) center no-repeat;}
+.fr .empty_date { background: url(../images/empty_fr.png) center no-repeat}
+.fr .welcome_opd  { background: url(../images/wel_en.png) center no-repeat;}
+.fr .empty_date_opd { background: url(../images/empty_en.png) center no-repeat}
+.fr .imfor_tablextro{ width:100%;}
+.fr .imfor_tablextro tr:hover {background:#d9ecf3;}
+.fr .imfor_tablextro td{ font-size:12px; height:38px; line-height:38px;  text-align:center; border-bottom:1px solid #e2eaee; color:#333333;}
+.fr .imfor_tablextro .tad1{ width:22%; height:38px; line-height:38px; padding:0 6px; text-align:right; white-space:nowrap;}
+.fr .imfor_tablextro .tad2{ width:10px;}
+.fr .table_box > tbody > td, .fr .table_box  > td{ white-space:nowrap;}
+.fr .en_filter_div{width:211px;}
+.fr .en_muticheck_div{width:212px;}
+.fr .css_button_confirm{width:70px;}
+.fr .css_button_concel{width:70px;}
+.fr .css_button_cc{width:65px;}
+.fr .fr_box {line-height:20px;}
+.fr .gzys_word {line-height:30px; font-size:14px; width:163px; text-align:right;}
+.fr .gzys_botton_two { width:354px; height:30px; margin:auto;}
+
+
+.ru .tab_list ul li{ min-height:60px;}
+.ru .tab_list ul li p { line-height:normal;word-wrap: break-word;margin: 10px 0px 0px 0px;}
+.ru .tab_list ul { height:56px; padding-bottom: 5px;}
+.ru .tab_list ul li.on {height:62px;}
+.ru .content_boxx_zhuanlilx  {padding: 5px 2px;}
+.ru .welcome  { background: url(../images/wel_ru.png) center no-repeat;}
+.ru .empty_date { background: url(../images/empty_ru.png) center no-repeat}
+.ru .welcome_opd  { background: url(../images/wel_en.png) center no-repeat;}
+.ru .empty_date_opd { background: url(../images/empty_en.png) center no-repeat}
+.ru .ru_box {line-height:20px; height:60px;}
+.ru .ru_box2 {line-height:20px; }
+
+
+.ru .imfor_tablextro{ width:100%;}
+.ru .imfor_tablextro tr:hover {background:#d9ecf3;}
+.ru .imfor_tablextro td{ font-size:12px; height:38px; line-height:38px;  text-align:center; border-bottom:1px solid #e2eaee; color:#333333;}
+.ru .imfor_tablextro .tad1{ width:22%; height:38px; line-height:38px; padding:0 6px; text-align:right; white-space:nowrap;}
+.ru .imfor_tablextro .tad2{ width:10px;}
+.ru .table_box > tbody > td, .ru .table_box  > td{ white-space:nowrap;}
+.ru .en_filter_div{width:211px;}
+.ru .en_muticheck_div{width:212px;}
+.ru .css_button_confirm{width:70px;}
+.ru .css_button_concel{width:70px;}
+.ru .css_button_cc{width:65px;}
+.ru .gzys_word {line-height:30px; font-size:14px; width:153px; text-align:right;}
+.ru .gzys_botton_two { width:376px; height:30px; margin:auto;}
+
+
+.de .tab_list ul li{ min-height:89px;}
+.de .tab_list ul li p { line-height:normal;word-wrap: break-word;margin: 10px 0px 0px 0px;}
+.de .tab_list ul { height:85px; padding-bottom: 5px;}
+.de .tab_list ul li.on {height:91px;}
+.de .content_boxx_zhuanlilx  {padding: 5px 5px;}
+.de .welcome  { background: url(../images/wel_de.png) center no-repeat;}
+.de .empty_date { background: url(../images/empty_de.png) center no-repeat}
+.de .welcome_opd  { background: url(../images/wel_en.png) center no-repeat;}
+.de .empty_date_opd { background: url(../images/empty_en.png) center no-repeat}
+
+.de .imfor_tablextro{ width:100%;}
+.de .imfor_tablextro tr:hover {background:#d9ecf3;}
+.de .imfor_tablextro td{ font-size:12px; height:38px; line-height:38px;  text-align:center; border-bottom:1px solid #e2eaee; color:#333333;}
+.de .imfor_tablextro .tad1{ width:22%; height:38px; line-height:38px; padding:0 6px; text-align:right; white-space:nowrap;}
+.de .imfor_tablextro .tad2{ width:10px;}
+.de .table_box > tbody > td, .de .table_box  > td{ white-space:nowrap;}
+.de .en_filter_div{width:211px;}
+.de .en_muticheck_div{width:212px;}
+.de .css_button_confirm{width:70px;}
+.de .css_button_concel{width:70px;}
+.de .css_button_cc{width:65px;}
+.de .de_box {line-height:20px;}
+.de .gzys_word {line-height:30px; font-size:14px; width:157px; text-align:right;}
+.de .gzys_botton_two { width:294px; height:30px; margin:auto;}
+
+
+
+.ja .welcome  { background: url(../images/wel_ja.png) center no-repeat;}
+.ja .empty_date { background: url(../images/empty_ja.png) center no-repeat}
+.ja .welcome_opd  { background: url(../images/wel_en.png) center no-repeat;}
+.ja .empty_date_opd { background: url(../images/empty_en.png) center no-repeat}
+.ja .imfor_tablextro{ width:100%;}
+.ja .imfor_tablextro tr:hover {background:#d9ecf3;}
+.ja .imfor_tablextro td{ font-size:12px; height:38px; line-height:38px;  text-align:center; border-bottom:1px solid #e2eaee; color:#333333;}
+.ja .imfor_tablextro .tad1{ width:22%; height:38px; line-height:38px; padding:0 6px; text-align:right; white-space:nowrap;}
+.ja .imfor_tablextro .tad2{ width:10px;}
+.ja .table_box > tbody > td, .ja .table_box  > td{ white-space:nowrap;}
+.ja .en_filter_div{width:211px;}
+.ja .en_muticheck_div{width:212px;}
+.ja .css_button_confirm{width:70px;}
+.ja .css_button_concel{width:70px;}
+.ja .css_button_cc{width:65px;}
+.ja #tzzlxx {width:200px;}
+.ja .gzys_botton_two { width:201px; height:30px; margin:auto;}
+
+
+.ko .welcome  { background: url(../images/wel_ko.png) center no-repeat;}
+.ko .empty_date { background: url(../images/empty_ko.png) center no-repeat}
+.ko .welcome_opd  { background: url(../images/wel_en.png) center no-repeat;}
+.ko .empty_date_opd { background: url(../images/empty_en.png) center no-repeat}
+.ko .imfor_tablextro{ width:100%;}
+.ko .imfor_tablextro tr:hover {background:#d9ecf3;}
+.ko .imfor_tablextro td{ font-size:12px; height:38px; line-height:38px;  text-align:center; border-bottom:1px solid #e2eaee; color:#333333;}
+.ko .imfor_tablextro .tad1{ width:22%; height:38px; line-height:38px; padding:0 6px; text-align:right; white-space:nowrap;}
+.ko .imfor_tablextro .tad2{ width:10px;}
+.ko .table_box > tbody > td, .ko .table_box  > td{ white-space:nowrap;}
+.ko .en_filter_div{width:211px;}
+.ko .en_muticheck_div{width:212px;}
+.ko .css_button_confirm{width:70px;}
+.ko .css_button_concel{width:70px;}
+.ko .css_button_cc{width:65px;}
+.ko #tzzlxx {width:200px;}
+.ko .ko_box {line-height:20px;}
+.ko .gzys_botton_two { width:212px; height:30px; margin:auto;}

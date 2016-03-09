@@ -1,0 +1,37 @@
+.w10{width: 10px;}
+.w10p{width: 10%;}
+table {table-layout: fixed;}
+
+/** 清除浮沉 **/
+.clearfix { 
+  *zoom: 1; 
+} 
+.clearfix:before, 
+.clearfix:after { 
+  display: table; 
+  line-height: 0; 
+  content: ""; 
+} 
+
+.clearfix:after { 
+  clear: both; 
+}
+
+
+.inlineBlock{
+	display:inline-block; 
+}
+
+.ftb {
+	font-weight: 900;
+}
+
+.hidden {
+	display: none!important;
+	visibility: hidden!important;
+}
+
+.nlkfqirnlfjerldfgzxcyiuro {
+	display: none!important;
+	visibility: hidden!important;
+}

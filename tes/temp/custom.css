@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/*同族专利查询 样式   开始*/
+.page{
+	float:right;
+	margin-bottom:10px;
+	/*margin-right:10px;*/
+	width:100%;
+	text-align:center;
+}
+ .page a{
+  text-decoration:none;
+}
+  .page a span{
+  padding:4px 16px 4px 16px;
+  border:1px solid #dbe6f0;
+  color: #000000;
+  font-size:12px;
+  /*font-weight:bold;*/
+  /*font-family: 'helvetica neue', arial, sans-serif;*/
+}
+
+.page a span:hover,.click_page{
+  background:rgb(210, 239, 249);
+  /*color:#ffffff;*/
+ }
+ .sort_bg { width:20%; height:30px; line-height:25px; font-size:12px; color:#666666; float:left; background-color:#fff; border:1px solid #cccccc; margin:7px 0px 0px 8px; padding-left:13px; position:relative;}
+ .sort_header {
+	/*background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;*/
+	cursor: pointer;
+}
+ .sort_header li{width:auto!important; width:160px; min-width:160px;float:left;height:41px;border:1px #e5e5e5 solid;border-top:0px; border-bottom:0px; border-right:0px; padding:0 1px;}
+  .sort_header li:hover{background:#fff;color:red;}
+.h2_head{cursor:pointer;}
+.sortUp{/*background-image: url(../images/asc.gif);*/}
+.sort_header li.sortDown{background:#fff;color:red;}
+.lockpopup{font-size: 350px;text-align:center;vertical-align:middle;border:0px solid black;position:absolute;top:0px;left:0px;width:100%;height:100%;background-color:#000;filter:alpha(opacity=45);opacity:0.45;display:none;z-index:200;}
+.pdf_content{min-height:750px;}
+.pdfiframe{min-height:750px;}
+.select_tittle{ float:left; padding-left:12px; color:#333333;}
+/*同族专利查询 样式  结束*/
+.translation_tab{
+	 color:#fff;line-height:32px;text-align:center;width:82px;height:32px;position:absolute;top:0px;right:180px;background:url(../images/botton_repeat.png);
+	 padding-left:5px;display:none;
+}
+.translation_tab:hover{cursor:pointer;font-weight:bold;background:url(../images/botton_repeat_over.png)}
+.tipstable{border-right:1px solid #d5e4eb;border-top:1px solid #d5e4eb;}
+.tipstable td{border-bottom:1px solid #d5e4eb;border-left:1px solid #d5e4eb;color:#333333;text-align:center;height:40px;padding:0 3px;}
+.tipstable th{border-bottom:1px solid #d5e4eb;border-left:1px solid #d5e4eb;color:#576b76;background:#e8eef1;height:40px; text-align:center; padding-left:3px;}
+.table_box td b{color: rgb(218, 98, 2); padding-right: 3px; font-size: 12px; font-weight: bold;}
+.docdbTips{height:25px;color:#333333;text-align:left;width:100%;}
+.closeTips{/*background-image:url(../images/wrong_icon.png);*/color:#333333;font-size:12px;font-family:Arial,"SimSun";font-style: normal;}
+.closeTips:hover{font-weight:bold;color:red;}
+.closeTipsDiv{width:60px;float:right;margin-top:-25px;}
+.tipsTop_init{border: 1px solid #50ade2;border-bottom: none; padding: 5px;height: 30px;line-height: 30px;z-index: 2;margin-bottom:-1px;background:#fff;width:104px;border-top-left-radius:4px;border-top-right-radius:4px;visibility:hidden}
+.tipsTop{background:white;border: 1px solid #50ade2;border-bottom: none; padding: 5px;height: 30px;line-height: 30px;z-index: 2;margin-bottom:-1px;background:#fff;width:104px;border-top-left-radius:4px;border-top-right-radius:4px;}
+.divCheckbox:hover{background:#e2eaf8;}
+.filter_div{width:160px;}
+.muticheck_div{width:162px;}
+.css_button_confirm{width:50px;}
+.css_button_concel{width:45px;}
+.css_button_cc{width:40px;}
+.opd_query_input{width:100px;}
+
+/* 五局查询条件 */
+.wjfm .browsebox_container{float:left;}
+.wjfm .browsebox_container.wopd_querytype{width: 103px;}
+.wjfm .browsebox_container.wopd_querytype .browsebox_input {width: 100px;*width: 102px;}
+.wjfm .browsebox_container.wopd_country{width: 103px;}
+.wjfm .browsebox_container.wopd_country .browsebox_input {width: 100px;*width: 102px;}
+.wjfm .browsebox_container.wopd_kindcode{width: 103px;}
+.wjfm .browsebox_container.wopd_kindcode .browsebox_input {width: 100px;*width: 102px;}
+.wjfm .tip-hide{border: #f5f8f9;background: #f5f8f9;}
+
+/*extro*/
+.tab_listext { overflow:hidden;}
+.tab_listext ul { padding-bottom:3px;height:39px; border-left:1px solid #c6d5dd; border-bottom:1px solid #c6d5dd; }
+.tab_listext ul li .tab_top { height:4px; background:#d0dee4; border-bottom:1px solid #c6d5dd}
+.tab_listext ul li p {  line-height:36px;word-wrap: break-word;}
+.tab_listext ul li { float:left; width:auto!important; width:125px; min-width:125px; padding:0 6px; height:36px; line-height:36px; white-space:nowrap; border-top:5px solid #d0dee4; border-left:1px solid #c6d5dd; background:#f4f9fa; color:#8396a0; text-align:center; font-size:14px; cursor: pointer;}
+.tab_listext ul li.on { color:#333333;  border:0px; background:#fff; line-height:38px; height:38px; border-left:1px solid #c6d5dd; border-top:5px solid #50ade2;}
+.tab_listext ul li.off { cursor:pointer;}
+.tab_listext ul li .tab_top_on { height:4px; background:#50ade2;border-bottom:1px solid #4b99e5}
+.tab_listext ul li.tab_empty { border-bottom:1px solid #c6d5dd; border-top:0px; height:36px; background:#e9f2f5; border-left:0px;}
+.tab_listext ul li.tab_last { border-right:1px solid #c6d5dd;}
+.tab_listext ul li.tab_first { border-left:0px;}
+.tab_listext ul li:hover{color:#9cb1bc;}
+
+.imfor_tablextro{ width:100%;}
+.imfor_tablextro tr:hover {background:#d9ecf3;}
+.imfor_tablextro td{ font-size:12px; height:38px; line-height:38px;  text-align:center; border-bottom:1px solid #e2eaee; color:#333333;}
+.imfor_tablextro .tad1{ width:15%; height:38px; line-height:38px; padding:0 6px; text-align:right; white-space:nowrap;}
+.imfor_tablextro .tad2{ width:10px;}
+
+.appNumber{width:13%;}
+.table_box2 td b{color: red; padding-right: 3px; font-size: 12px; font-weight: bold;}

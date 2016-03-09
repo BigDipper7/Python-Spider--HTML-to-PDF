@@ -1,0 +1,124 @@
+.browsebox_container{
+	border:1px solid #bae2f7;
+	height:28px;
+	line-height:26px;
+	display:inline-block;
+	width:200px;
+	zoom:1;
+	*display:inline;
+	box-sizing:border-box;
+	padding-left: 0px!important;
+}
+
+.browsebox_container.w100p{width:100%;}
+.browsebox_container.w140{width:140px;}
+.browsebox_container.w145{width:145px;}
+.browsebox_container.w155{width:155px;}
+.browsebox_container.w80{width:80px;}
+
+.browsebox p {
+	box-sizing:border-box;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 24px;
+  color:#000;
+  height: 24px;
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+.browsebox {
+	box-sizing:border-box;
+	position: absolute;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	display: none;
+	z-index: 9999;
+    width: 100%;
+    color: #000;
+    border-top: 0;
+    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+            box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+}
+
+input[type="text"].browsebox_input, input[type="text"].browsebox_input[readonly] {
+	cursor: pointer;
+	background:url(img/box.png) no-repeat center right #fff;
+	border:none;
+	width:100%;
+	height:26px;
+	line-height:26px;
+	padding:0 3px;
+	*padding:0;
+	margin:0;
+	color:#000;
+	box-sizing:border-box;
+}
+
+.browsebox_input[readonly]::-webkit-input-placeholder,
+.browsebox_input::-webkit-input-placeholder {
+    color:#d2d4e1;
+}
+
+
+.browsebox_input_disabled,.browsebox_input[disabled] {
+	background-color: #eeeeee!important;
+	cursor: not-allowed!important;
+}
+
+.browsebox_input_loading {
+	background:url(img/loading.gif) no-repeat center right!important;
+}
+
+.bs_s {
+	border:none!important;
+	margin:0!important;
+	border-bottom:1px solid #ccc!important;
+	color:#e3e5ee;
+	background:url(img/search.png) no-repeat center right;
+}
+
+.bs_f {
+	height : 20px;
+	line-height: 20px;
+	display: none!important;
+}
+
+.bs_left {
+	float: left!important;
+}
+
+.bs_right {
+	float: right!important;
+}
+
+.bs_l {
+	box-sizing:border-box;
+	overflow-x: hidden;
+	overflow-y: auto;
+	white-space: nowrap;
+}
+
+.bs_all {
+}
+
+.bs_l_r {
+	cursor: pointer;
+	text-align: left;
+    padding: 0 0 0 4px;
+    margin: 0 4px 0 4px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.browsebox p.bs_l_r_a {
+	background: #4ea1e7;
+    color: #fff;
+}
+
+.browsebox p.bs_l_r_h {
+	background:#74b3e8;
+	color:#fff;
+}
