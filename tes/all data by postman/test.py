@@ -12,7 +12,8 @@ css = ['reset.css', 'base.css', 'common.css',
 
 def main():
     print 'begin'
-    pdfkit.from_file('中国及多国专利审查信息查询.html', 'out.pdf', css = css)
+    pdfkit.from_file('test.html', 'out.pdf')
+    pdfkit.from_file('per pagae.html', 'out2.pdf')
     print 'end'
 
 

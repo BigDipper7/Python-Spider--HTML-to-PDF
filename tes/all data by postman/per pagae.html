@@ -1,0 +1,671 @@
+
+
+
+
+
+<!doctype html><html><head><title>China and Global Patent Examination Information Inquiry
+</title><title></title><meta http-equiv="pragma" content="no-cache"><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="keywords" content="CPQUERY Patent System"/><meta name="renderer" content="webkit" /><link rel="shortcut icon" href="/layout/images/favicon.ico" />
+<!-- CSS START -->
+<link href="http://cpquery.sipo.gov.cn:80/layout/css/reset.css" rel="stylesheet" type="text/css" />
+<!-- 去除浏览器默认样式文件 -->
+<link href="http://cpquery.sipo.gov.cn:80/layout/css/base.css" rel="stylesheet" type="text/css" />
+<!-- 公共基础样式 -->
+<link href="http://cpquery.sipo.gov.cn:80/layout/css/common.css" rel="stylesheet" type="text/css" />
+<!-- 公共组件样式 -->
+<link href="http://cpquery.sipo.gov.cn:80/layout/css/body.css" rel="stylesheet" type="text/css" />
+<link href="http://cpquery.sipo.gov.cn:80/layout/css/main.css" rel="stylesheet" type="text/css" />
+<link href="http://cpquery.sipo.gov.cn:80/layout/css/custom.css" rel="stylesheet" type="text/css" />
+<link href="http://cpquery.sipo.gov.cn:80/layout/css/global.css" rel="stylesheet" type="text/css" />
+<link href="http://cpquery.sipo.gov.cn:80/commons/validation/css/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
+<link href="http://cpquery.sipo.gov.cn:80/commons/validation/css/template.css" rel="stylesheet" type="text/css" />
+<link href="http://cpquery.sipo.gov.cn:80/commons/uploadify/css/uploadify.css" rel="stylesheet" type="text/css" />
+<link href="http://cpquery.sipo.gov.cn:80/commons/tree/css/zTreeStyle.css" rel="stylesheet" type="text/css" />
+<link href="http://cpquery.sipo.gov.cn:80/layout/css/global.css" rel="stylesheet" type="text/css" />
+<!-- CSS END -->
+<script type="text/javascript">
+	var ctx = 'http://cpquery.sipo.gov.cn:80';
+	var openWindowType = 'window';
+	var pageUUID = '/app/cpquery/search/sub/query-zlxm.jsp';
+	var _prePageName = '';
+	var menuPath = '';// TODO
+	var errorCode = '000000';
+	var errorDesc = '';
+	var globalUser = {
+		"language" : "en",
+		"id" : ""
+	};
+	//避免ie console log报错
+	if (!window.console || !window.console.log) {
+		window.console = {
+			log : function(v) {
+				
+			}
+		}
+	}
+</script>
+<!-- COMMON SCRIPT START  -->
+<!--[if lte IE 8]>
+<script src='http://cpquery.sipo.gov.cn:80/layout/js/html5.js'></script>
+<![endif]-->
+<script src='http://cpquery.sipo.gov.cn:80/commons/jquery/jquery-1.7.2.min.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/tool/common.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/datepicker/datepicker.files.js'></script>
+<script type="text/javascript" src="http://cpquery.sipo.gov.cn:80/commons/jquery/jquery.media.js"></script>
+<!-- COMMON SCRIPT END  -->
+<link href="http://cpquery.sipo.gov.cn:80/layout/css/custom.css" rel="stylesheet" type="text/css" />
+<!-- OPEN CORE SCRIPT END -->
+<script type="text/javascript">
+$(function() {
+	$.i18n.properties({
+		name : "message", // 资源文件名称
+		path : "http://cpquery.sipo.gov.cn:80/common/i18n/", // 资源文件所在目录路径
+		mode : "map",
+		language : globalUser.language, // 对应的语言
+		cache : false,
+		encoding : "UTF-8",
+		callback : function() { // 加载验证国际化语言
+			$.validationEngineLanguage.newLang();
+		}
+	});
+	
+	if ("TXN-ERR" == errorCode) {
+		showMsg(errorDesc, "warning");
+	}
+	if (errorDesc && window.console) {
+		console.log(errorDesc);
+	}
+});
+</script>
+<style type="text/css">
+.cur {
+	background-color: #66A3D2;
+}
+
+.Wdate {
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #bae2f7 !important;
+	background: #fff;
+	width: 167px;
+	font-size: 12px;
+	position: relative;
+	float: left;
+	padding-left: 10px;
+}
+</style>undefined</head>undefined<body class='global en'>
+<!--导航-->
+<input id="usertype" type="hidden"
+			value="1">
+<div class="hd">
+    <div class="head" id="header1">
+        <div class="logo_box">
+			
+		</div>
+        <div class="nav_box">
+            <ul class="header_menu">
+                <li id="header_query" 
+					class="_over" >
+                    <div
+						 class="nav_over" >
+						China Patent Examination Information Inquiry
+					</div>
+                </li>
+                <li id="header-family" >
+                    <div
+						>
+						Global Patent Examination Information Inquiry
+					</div>
+                </li>
+			
+            </ul>
+
+		
+        </div>
+        <div class="hr">
+            <ul>
+                <!-- 公众用户 -->
+                <li id="regpublic">
+                    <a href="javascript:;">register</a>
+                </li>
+                <li id="loginpublic">
+                    <a href="javascript:;">logon</a>
+                </li>
+                <!-- 公众注册用户 -->
+                <!-- 电子申请注册用户 -->
+                <!-- 公用部分  -->
+                <li title="Language">
+                    <div class="selectlang">
+                        <a href="javascript:;">
+                            <i class="lang"></i>
+						
+                        </a>
+                        <div class="topmenulist hidden">
+                            <ul>
+                                <li id="zh">
+                                    <span  title="中文">中文</span>
+                                </li>
+                                <li id="en">
+                                    <span  title="English">English</span>
+                                </li>
+                                <li id="de">
+                                    <span  title="Deutsch">Deutsch</span>
+                                </li>
+                                <li id="es">
+                                    <span  title="Espa&ntilde;ol">Espa&ntilde;ol</span>
+                                </li>
+                                <li id="fr">
+                                    <span  title="Fran&ccedil;ais">Fran&ccedil;ais</span>
+                                </li>
+                                <li id="ja">
+                                    <span  title="&#26085;&#26412;&#35486;">&#26085;&#26412;&#35486;</span>
+                                </li>
+                                <li id="ko">
+                                    <span  title="&#54620;&#44397;&#50612;">&#54620;&#44397;&#50612;</span>
+                                </li>
+                                <li id="ru">
+                                    <span  title="&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</span>
+                                </li>
+							
+                            </ul>
+						
+                        </div>
+					
+                    </div>
+				
+                </li>
+                <li id="navLogoutBtn" class="mouse_cross" title="Logout">
+                    <a href="javascript:;">
+                        <i class="out"></i>
+                    </a>
+			 	
+                </li>
+			
+            </ul>
+		
+        </div>
+        <ul class="float_botton">
+            <li id="backToTopBtn" title="back to the top" style="display: none;">
+                <i
+				class="top"></i>
+            </li>
+            <li id="backToPage" class="hidden">
+                <a href="javascript:;">
+                    <i
+					class="back" title="previous"></i>
+                </a>
+            </li>
+            <li id="faqBtn" >
+                <a href="javascript:;">
+                    <i
+					class="faq_icon" title="FAQ"></i>
+                </a>
+            </li>
+		
+        </ul>
+	
+    </div>
+</div>
+<script src='http://cpquery.sipo.gov.cn:80/appjs/header.js'></script>
+<!-- header.jsp对应js -->
+<input type='hidden' name='select-key:backPage' id='select-key:backPage' value="http://cpquery.sipo.gov.cn//txnQueryOrdinaryPatents.do?select-key%3Ashenqingh=&amp;select-key%3Azhuanlimc=&amp;select-key%3Ashenqingrxm=%E4%B9%9D%E9%98%B3%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&amp;select-key%3Azhuanlilx=1&amp;select-key%3Ashenqingr_from=&amp;select-key%3Ashenqingr_to=&amp;attribute-node:record_start-row=1&amp;attribute-node:record_page-row=10&amp;#anchor">
+<input type='hidden' name='show:iszlxshow' id='show:iszlxshow' value="yes">
+<input type='hidden' name='show:issqrshow' id='show:issqrshow' value="yes">
+<input type='hidden' name='show:isfmrshow' id='show:isfmrshow' value="yes">
+<input type='hidden' name='show:islxrshow' id='show:islxrshow' value="no">
+<input type='hidden' name='show:iszldlshow' id='show:iszldlshow' value="no">
+<input type='hidden' name='show:isyxqshow' id='show:isyxqshow' value="no">
+<input type='hidden' name='show:ispctshow' id='show:ispctshow' value="no">
+<input type='hidden' name='show:isbgshow' id='show:isbgshow' value="no">
+<input type='hidden' name='record_zlx:zhuanlilx' id='record_zlx:zhuanlilx' value="1">
+<div class="bd">
+    <div class="tab_body">
+        <div class="tab_list">
+            <ul>
+                <li id="jbxx" class="tab_first on">
+                    <div class="tab_top_on"></div>
+                    <p>
+							Basic information
+						</p>
+                </li>
+                <li id='wjxx'>
+                    <div class="tab_top"></div>
+                    <p>
+							about examination
+						</p>
+                </li>
+                <li id='fyxx'>
+                    <div class="tab_top"></div>
+                    <p>
+							Payment Information
+						</p>
+                </li>
+                <li id='fwxx'>
+                    <div class="tab_top"></div>
+                    <p>
+							Delivery Information
+						</p>
+                </li>
+                <li id='gbgg'>
+                    <div class="tab_top"></div>
+                    <p>
+							Publication/Announcement Information
+						</p>
+                </li>
+                <li id='tzzlxx'>
+                    <div class="tab_top"></div>
+                    <p>
+							patent families information
+						</p>
+                </li>
+					
+				    
+					
+				
+            </ul>
+			
+        </div>
+        <div class="tab_box">
+            <div class="imfor_part1">
+                <h2>
+						Bibliographic information
+						
+                    <i id="zlxtitle" class="draw_up"></i>
+					
+                </h2>
+                <div id="zlxid">
+                    <div class="imfor_box">
+                        <table class="imfor_table_grid">
+                            <tr>
+                                <td width="40%" class="td1">Application number：</td>
+                                <td width="60%">
+                                    <span name="record_zlx:shenqingh" title="2015108707640">2015108707640</span>
+                                </td>
+								
+                            </tr>
+                            <tr>
+                                <td class="td1">filing date：</td>
+                                <td>
+                                    <span name="record_zlx:shenqingr" title="pos||">
+                                        <span id="b3fcad06931b462998fa7cf2a28a982c" class="nlkfqirnlfjerldfgzxcyiuro">2015-12-01</span>
+                                        <span id="b38a45db15a54217ac1d791c074cc5ef" class="nlkfqirnlfjerldfgzxcyiuro">2015-12-01</span>
+                                        <span id="a5597a62fc14416899213f4159aa4e70" class="nlkfqirnlfjerldfgzxcyiuro">2015-12-01</span>
+                                        <span id="f216eef88337449683c7d08513582852" class="nlkfqirnlfjerldfgzxcyiuro">2015-12-01</span>
+                                        <span id="e108f285b27e40dbac8766a4817bc914" class="nlkfqirnlfjerldfgzxcyiuro">2015-12-01</span>
+                                        <span id="b37aec552c7d43a5847265aaa69031a7" class="nlkfqirnlfjerldfgzxcyiuro">2015-12-01</span>
+                                        <span id="a4a310df13874a3a943ba34e368e2763" class="nlkfqirnlfjerldfgzxcyiuro">2015-12-01</span>
+                                        <span id="c79cfd9a77e3469b8cfc0f0023c14d99" class="nlkfqirnlfjerldfgzxcyiuro">2015-12-01</span>
+                                        <span id="e522c52366eb4ceeb6966ff16540bf65" class="nlkfqirnlfjerldfgzxcyiuro">2015-12-01</span>
+                                        <span id="5bf9cb8d87664ce0bcf8a6216c9db56f" class="nlkfqirnlfjerldfgzxcyiuro">2015-12-01</span>
+                                    </span>
+                                </td>
+								
+                            </tr>
+                            <tr>
+                                <td class="td1">Status：</td>
+                                <td>
+                                    <span name="record_zlx:anjianywzt" title="pos||">
+                                        <span id="736e1b1f35ae40219eb658790fe7f2b4" class="nlkfqirnlfjerldfgzxcyiuro">bstantive</span>
+                                        <span id="4f07cdd7a7044b5c9954c92f0aa75629" class="nlkfqirnlfjerldfgzxcyiuro">waiting f</span>
+                                        <span id="7d7faf9f71db4eefbc34c97c5f973e05" class="nlkfqirnlfjerldfgzxcyiuro">or select</span>
+                                        <span id="667ddcde30e3458ea8e1fb8c0bf4b61f" class="nlkfqirnlfjerldfgzxcyiuro">or select</span>
+                                        <span id="fe838a455f2143e1a2b960b4be266c5c" class="nlkfqirnlfjerldfgzxcyiuro">ion of su</span>
+                                        <span id="1654c642969a4d47ad6dda4b34b38ab3" class="nlkfqirnlfjerldfgzxcyiuro">bstantive</span>
+                                        <span id="e84455e7e7dc47f9bfd9436958a97729" class="nlkfqirnlfjerldfgzxcyiuro">or select</span>
+                                        <span id="1a2c2f874fde492cbcb5091b077333e3" class="nlkfqirnlfjerldfgzxcyiuro"> examination</span>
+                                        <span id="3186369057b240249fcfaaa57529700b" class="nlkfqirnlfjerldfgzxcyiuro"> examination</span>
+                                        <span id="9ff38665b6304b0d97caa37e18cbf3ea" class="nlkfqirnlfjerldfgzxcyiuro"> examination</span>
+                                    </span>
+                                </td>
+								
+                            </tr>
+							
+                        </table>
+						
+                    </div>
+                    <div class="imfor_box2">
+                        <table class="imfor_table_grid">
+                            <tr>
+                                <td width="40%" class="td1">Title of Invention：</td>
+                                <td width="60%">
+                                    <span name="record_zlx:zhuanlimc" title="pos||">
+                                        <span id="f756a1ef85ca40ce9342097b81c1ec09" class="nlkfqirnlfjerldfgzxcyiuro">控制方法</span>
+                                        <span id="ce4f651664ef4c968a92a78cde87966e" class="nlkfqirnlfjerldfgzxcyiuro">加工</span>
+                                        <span id="9a5816c95d5443dabe3c149208c608ac" class="nlkfqirnlfjerldfgzxcyiuro">一种</span>
+                                        <span id="2d791159ef1946108863fb995d0b79d3" class="nlkfqirnlfjerldfgzxcyiuro">食品</span>
+                                        <span id="ea4791114ece4c408cc401086d9ac083" class="nlkfqirnlfjerldfgzxcyiuro">加工</span>
+                                        <span id="3847b429e71440a89745972e3157aaf5" class="nlkfqirnlfjerldfgzxcyiuro">加工</span>
+                                        <span id="0b2e6080f1704d7d98f452d0c79b9048" class="nlkfqirnlfjerldfgzxcyiuro">机的</span>
+                                        <span id="88c5ac027cb5410bb80c33b14e1dcbeb" class="nlkfqirnlfjerldfgzxcyiuro">机的</span>
+                                        <span id="7a4b2719abe643a6bb6ecb15794ac32c" class="nlkfqirnlfjerldfgzxcyiuro">网络</span>
+                                        <span id="491428fa0511482184c97011efd27bbe" class="nlkfqirnlfjerldfgzxcyiuro">控制方法</span>
+                                    </span>
+                                </td>
+								
+                            </tr>
+                            <tr>
+                                <td width="40%" class="td1">Main IPC：</td>
+                                <td width="60%">
+                                    <span name="record_zlx:zhufenlh" title="pos||">
+                                        <span id="c710c3401b3949f78b650a46b449ddd2" class="nlkfqirnlfjerldfgzxcyiuro">H0</span>
+                                        <span id="429536b478d14c56b6e6cc2775159867" class="nlkfqirnlfjerldfgzxcyiuro"> 2</span>
+                                        <span id="9b3057822187457dbc39b54108905b1d" class="nlkfqirnlfjerldfgzxcyiuro">H0</span>
+                                        <span id="9368f80c237f4d388fcc0348b6c78870" class="nlkfqirnlfjerldfgzxcyiuro">4L</span>
+                                        <span id="06c26166f5f14089994eb99e092d158c" class="nlkfqirnlfjerldfgzxcyiuro">H0</span>
+                                        <span id="333b08d3ead242ff850eb84665d71c95" class="nlkfqirnlfjerldfgzxcyiuro">9/08</span>
+                                        <span id="4d14b928f48740fba8ae4e566ff92803" class="nlkfqirnlfjerldfgzxcyiuro">H0</span>
+                                        <span id="5d317da0e5e3427e977f9d7d1df06350" class="nlkfqirnlfjerldfgzxcyiuro">H0</span>
+                                        <span id="0c39b4bfe4304ae2b8e8d0ee3f3898a8" class="nlkfqirnlfjerldfgzxcyiuro"> 2</span>
+                                        <span id="1c00e464a07b44828360e4eb101bacc0" class="nlkfqirnlfjerldfgzxcyiuro">9/08</span>
+                                    </span>
+                                </td>
+								
+                            </tr>
+                            <tr>
+                                <td class="td1">分案提交日：</td>
+                                <td>
+                                    <span name="record_zlx:fenantjr" title="pos||"></span>
+                                </td>
+								
+                            </tr>
+							
+                        </table>
+						
+                    </div>
+					
+                </div>
+				
+            </div>
+            <div class="imfor_part1">
+                <h2>
+						Applicant(s)
+						
+                    <i id="sqrtitle" class="draw_up"></i>
+					
+                </h2>
+                <div id="sqrid" class="imfor_table">
+                    <table class="imfor_table_grid">
+                        <tr>
+                            <th width="20%">Name or Title</th>
+                            <th width="30%">Nationality or Location of Headquarters</th>
+                            <th width="10%">Post code</th>
+                            <th width="40%">Address</th>
+							
+                        </tr>
+                        <tr>
+                            <td width="30%">
+                                <span name="record_sqr:shenqingrxm" title="pos||">
+                                    <span id="2bf096d9c67244d6b783fda513204d49" class="nlkfqirnlfjerldfgzxcyiuro">份</span>
+                                    <span id="0d54b3e0cbbd4b9b86c71388934f7d16" class="nlkfqirnlfjerldfgzxcyiuro">九</span>
+                                    <span id="58d97ef1022d4bd086f53829bd9e5b15" class="nlkfqirnlfjerldfgzxcyiuro">阳</span>
+                                    <span id="607e5cfb3fe24bb3876aa41ee4c30a9a" class="nlkfqirnlfjerldfgzxcyiuro">股</span>
+                                    <span id="45ef2cac85d24441b1dd1f7345c585f7" class="nlkfqirnlfjerldfgzxcyiuro">股</span>
+                                    <span id="c2078f1814b643d681f640555f69a19d" class="nlkfqirnlfjerldfgzxcyiuro">股</span>
+                                    <span id="f6d61474a6ee464b8332b49a441c8473" class="nlkfqirnlfjerldfgzxcyiuro">份</span>
+                                    <span id="cf6b08c5588c41c296dd89f8a60569b7" class="nlkfqirnlfjerldfgzxcyiuro">有限公司</span>
+                                    <span id="27494a41ebf64a8f81fae713a554ae01" class="nlkfqirnlfjerldfgzxcyiuro">股</span>
+                                    <span id="08b9dabc85ab402e9a8817ad8e4ead52" class="nlkfqirnlfjerldfgzxcyiuro">股</span>
+                                </span>
+                            </td>
+                            <td width="20%">
+                                <span name="record_sqr:shenqingrgb" title="--">--</span>
+                            </td>
+                            <td width="10%">
+                                <span name="record_sqr:shenqingryb" title="--">--</span>
+                            </td>
+                            <td width="45%">
+                                <span name="record_sqr:shenqingrdz" title="--">--</span>
+                            </td>
+								
+                        </tr>
+							
+						
+                    </table>
+					
+                </div>
+				
+            </div>
+            <div class="imfor_part1">
+                <h2>
+						Inventor(s)/Designer(s)
+						
+                    <i id="fmrtitle" class="draw_up"></i>
+					
+                </h2>
+                <div id="fmrid" class="imfor_box">
+                    <table class="imfor_table_grid">
+                        <tr>
+                            <td width="30%" class="td1">Inventor(s)：</td>
+                            <td width="70%">
+                                <span name="record_fmr:famingrxm" title="pos||">
+                                    <span id="c6e8f6f97bb349bbbeeadb6ab1c1e088" class="nlkfqirnlfjerldfgzxcyiuro">辉、</span>
+                                    <span id="ab7a06d50983474d97c13d991988a2ea" class="nlkfqirnlfjerldfgzxcyiuro">宁、</span>
+                                    <span id="0028ee1173b64339ac0202ab983f02e4" class="nlkfqirnlfjerldfgzxcyiuro">王旭</span>
+                                    <span id="95174b6b9d0645a8899c032463b16bdd" class="nlkfqirnlfjerldfgzxcyiuro">金文</span>
+                                    <span id="6c0da94613364b7f98ba0d0bc9575d70" class="nlkfqirnlfjerldfgzxcyiuro">宁、</span>
+                                    <span id="a2fdf2faafed49af97f2815e2105172a" class="nlkfqirnlfjerldfgzxcyiuro">宁、</span>
+                                    <span id="68bc698b8a5049eb88a768f5c7381f07" class="nlkfqirnlfjerldfgzxcyiuro">余青</span>
+                                    <span id="91a83bf1b48049939f591fd8e806a997" class="nlkfqirnlfjerldfgzxcyiuro">辉、</span>
+                                    <span id="4f258704b23a469197653ec9f93d3d35" class="nlkfqirnlfjerldfgzxcyiuro">金文</span>
+                                    <span id="cc49834681a74df59b1553b600b238f1" class="nlkfqirnlfjerldfgzxcyiuro">伟、余旦</span>
+                                </span>
+                            </td>
+							
+                        </tr>
+						
+                    </table>
+					
+                </div>
+				
+            </div>
+            <div class="imfor_part1">
+                <h2>
+						Recipient
+						
+                    <i id="lxrtitle" class="draw_up"></i>
+					
+                </h2>
+                <div id="lxrid">
+                    <div class="imfor_box">
+                        <table class="imfor_table_grid">
+                            <tr>
+                                <td width="30%" class="td1">Name：</td>
+                                <td width="70%">
+                                    <span name="record_lxr:lianxirxm" title="pos||"></span>
+                                </td>
+								
+                            </tr>
+                            <tr>
+                                <td width="30%" class="td1">Post code：</td>
+                                <td width="70%">
+                                    <span name="record_lxr:lianxiryb" title="pos||"></span>
+                                </td>
+								
+                            </tr>
+
+							
+                        </table>
+						
+                    </div>
+                    <div class="imfor_box2">
+                        <table class="imfor_table_grid">
+                            <tr>
+                                <td width="30%" class="td1">Address：</td>
+                                <td width="70%">
+                                    <span name="record_lxr:lianxirdz" title="pos||"></span>
+                                </td>
+								
+                            </tr>
+							
+                        </table>
+						
+                    </div>
+					
+                </div>
+				
+            </div>
+            <div class="imfor_part1">
+                <h2>
+						Agency/Agent Information
+						
+                    <i id="zldltitle" class="draw_up"></i>
+					
+                </h2>
+                <div id="zldlid">
+                    <div class="imfor_box">
+                        <table class="imfor_table_grid">
+                            <tr>
+                                <td width="40%" class="td1">Agency Name：</td>
+                                <td width="60%">
+                                    <span name="record_zldl:dailijgmc" title="pos||"></span>
+                                </td>
+								
+                            </tr>
+							
+                        </table>
+						
+                    </div>
+                    <div class="imfor_box2">
+                        <table class="imfor_table_grid">
+                            <tr>
+                                <td width="40%" class="td1">First Named Attorney：</td>
+                                <td width="60%">
+                                    <span name="record_zldl:diyidlrxm" title="pos||"></span>
+                                </td>
+								
+                            </tr>
+							
+                        </table>
+						
+                    </div>
+					
+                </div>
+				
+            </div>
+            <div class="imfor_part1">
+                <h2>
+						Priority
+						
+                    <i id="yxqtitle" class="draw_up"></i>
+					
+                </h2>
+                <div id="yxqid" class="imfor_table">
+                    <table class="imfor_table_grid">
+                        <tr>
+                            <th>Prior Application Number</th>
+                            <th>Prior Application Date</th>
+                            <th>Prior Filed Office</th>
+							
+                        </tr>
+							
+						
+                    </table>
+					
+                </div>
+				
+            </div>
+            <div class="imfor_part1">
+                <h2>
+						International Phase
+						
+                    <i id="pcttitle" class="draw_up"></i>
+					
+                </h2>
+                <div id="pctid">
+                    <div class="imfor_box">
+                        <table class="imfor_table_grid">
+                            <tr>
+                                <td width="30%" class="td1">International Application Number：</td>
+                                <td width="70%">
+                                    <span name="record_pct:guojisqh" title="pos||"></span>
+                                </td>
+								
+                            </tr>
+                            <tr>
+                                <td class="td1" width="30%">International Application Date：</td>
+                                <td width="70%">
+                                    <span name="record_pct:guojisqr" title="pos||"></span>
+                                </td>
+								
+                            </tr>
+							
+                        </table>
+						
+                    </div>
+                    <div class="imfor_box2">
+                        <table class="imfor_table_grid">
+                            <tr>
+                                <td width="30%" class="td1">International Publication Number：</td>
+                                <td width="70%">
+                                    <span name="record_pct:guojigbh" title="pos||"></span>
+                                </td>
+								
+                            </tr>
+                            <tr>
+                                <td width="30%" class="td1">International Publication Date：</td>
+                                <td width="70%">
+                                    <span name="record_pct:guojigbr" title="pos||"></span>
+                                </td>
+								
+                            </tr>
+							
+                        </table>
+						
+                    </div>
+					
+                </div>
+				
+            </div>
+            <div class="imfor_part1">
+                <h2>
+						Change of Bibliographic Data
+						
+                    <i id="bgtitle" class="draw_up"></i>
+					
+                </h2>
+                <div id="bgid" class="imfor_table">
+                    <table class="imfor_table_grid">
+                        <tr>
+                            <th width="15%">Date of Changing in Force</th>
+                            <th width="25%">Changed Items</th>
+                            <th width="30%">Before</th>
+                            <th width="30%">After</th>
+							
+                        </tr>
+							
+						
+                    </table>
+					
+                </div>
+				
+            </div>
+			
+        </div>
+		
+    </div>
+	
+</div>
+<div class="ft"></div>
+<script src='http://cpquery.sipo.gov.cn:80/common/cpquery.common.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/tool/form.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/tool/extend.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/tool/browser.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/tool/jquery.md5.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/tool/json2.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/tool/jquery.cookie.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/jqueryui/jqueryui.files.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/common/cpquery.common.js'></script>
+<!-- OPEN CORE SCRIPT START -->
+<script src='http://cpquery.sipo.gov.cn:80/commons/open/open.files.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/nbrowsebox/browsebox.files.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/opendialog/jquery.opendialog.files.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/validation/jquery.validation.files.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/tree/jquery.tree.files.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/placeholder/jquery.placeholder.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/i18n/jquery.i18n.properties-1.0.9.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/noty/jquery.noty.files.js'></script>
+<script src='http://cpquery.sipo.gov.cn:80/commons/uploadify/jquery.uploadify.files.js'></script>
+<script src=/appjs/cpquery/search/sub/query-zlxm.js type="text/javascript"></script>
+<iframe id="downFrame" frameborder="0" height="0" width="0" ></iframe>
+<span style="display: none" id="62323a6230306265393c6b3e383f3f3871722377232c2774282e2e787f287b790c154413134642431f481d1b18194c1a53080b0600560f055e095b5a0b08080d796d752773232721712f7d7a282f7a2a353730306761356e6f3a6f3d656a6d3a50544e05015d555f095d5f5e0a5f5f5b4314431246174f41481b4e19194f4849e3b4e1afb5b3b3b3ebbfbeb9b5bbb7eea4f5a6a4f5f1a0f3fcf8aef9afa9fcac98c0c0908896979f9e9a9c929c9899cd82858281808cd0d4ded8dbda898a8b8df9f6f2f3a6e9ffa6fdf1fbfdaff4fbabe5e5e6e0b0b4b4b2ebbaebefe5efeee783d7d2db8586cad58cded3daddd8d78a96c0cbc7c2c4c6cfc0cfc99d9ec4c7ca643160343d61352b6d683e3c353c3f3e2474717620762227207a792f2c2c2e2716451b4247151e1404111248194c4d1f02065151010107075a5b020b5f0e0d5d71752772202624222a657d2a782f7c786168333131636264396f38396a383d3d5154555a500405545a0a465f555c5a5d4817134341444743404b4b43481e4748b0b0b3e6e2e1b4b0eaebefa7efbabfbff3a2a6a3a5f7a5aeaca0fcaca4ffa8aa90c09695c691929ecccdce9980949d9988d78a83d7878580de8dde888485d8dca3f1f1f7fca7f0a4fff1f2fcfce1feace3e8b0e7b6b3b3e3ebe9eebab9efbce785d986d38180d581dbd1d3d38dd5c2de93c1c296c0c3c296c8ce98cfc8c5ccc733373266306064363838686a6f6e3e233c21762620772572287a787978297c26421914401314151f1010191f4a1a4a1e061d070b500c01525e080a090e590a5d24717a752270757f7a70282f75287b2d61647e65646233623b3f38683a386c6b0203515b535307065c580f0e580e5d5f1148135f12431241494d4d4f1d4b1b1ab4b7b6e1bcb6b5b5eabdb3eab8b9bfeca8a5a5a0b8f6f0a1faa9a2f8a9a8a6a7c39593c0969c90c3cc9193cd94cc989f85878bd1839986878a81dfde8d8c898ca2f7f6f0f7fca7a4f8fbfaf9adaff7f7e3b7e2e1b1e1fab6eabfbebdeebbbfbe868486d7dd8480dedf8fd8d3ddd88bddc1c1c7c2c3c797dbcec19898cac4c69d38603733303c636530316b3c3a35683a7326212b2573262034202b7a242e7c791143161b14111f1e1b104c1e151c484b08540a0302540f0e0f150e5d0e08060870752071772472717178737c7a787d2a3368346a673165336b6c76383f6967675355545b550451530c0f5f520e5c5b5a4313444344174444401f4b5750515253acadaeafa8">版权信息：国家知识产权局所有</span>undefined</body>
+
+undefined</html>
